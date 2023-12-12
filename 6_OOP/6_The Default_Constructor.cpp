@@ -20,7 +20,7 @@ public:
     }
 
 
-    Player(){   //constructi
+    Player(){   //constructor
         name = "None";
         health = 100;
         xp = 3;
