@@ -4,12 +4,6 @@
 
 using namespace std;
 
-#include <iostream>
-#include <string>
-#include <vector>
-
-using namespace std;
-
 class Deep {
 private:
     int *data;
@@ -32,7 +26,7 @@ Deep::Deep(int d){
 
 Deep::Deep(const Deep &source)
     :Deep{*source.data}{    //copy pointer and pointer data 
-        cout << "Copy constructor - deep copy" << endl;
+        cout << "Copy constructor - ideep copy" << endl;
 }
 
 Deep::~Deep(){
